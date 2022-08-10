@@ -27,6 +27,7 @@ public class MenuController {
         data.put("status",200);
         String data_json = JSON.toJSONString(data);
         System.out.println("成功访问！！！");
+        System.out.println("ni");
         return data_json;
     }
 }
