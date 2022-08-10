@@ -33,10 +33,11 @@ public class LoginController {
         System.out.println(loginDto.getUsername());
         Assert.notNull(users,"用户不存在");
         if (!users.getPassword().equals(loginDto.getPassword())){
-            Result.faile("密码输入错误");
+            Result.faile("密码输入错误11");
         }
         System.out.println("tokem" +
                 ""+token);
+
         response.setHeader("Authorization",token);
         response.setHeader("Access-control-Expose-Headers","Authorization");
         return Result.succ(MapUtil.builder()
