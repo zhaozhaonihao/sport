@@ -29,6 +29,7 @@ public class MenuController {
         System.out.println("成功访问！！！");
         System.out.println("ni");
         System.out.println("zainihaoa");
+        System.out.println("master");
         return data_json;
     }
 }
