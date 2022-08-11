@@ -30,6 +30,7 @@ public class MenuController {
         System.out.println("ni");
         System.out.println("zainihaoa");
         System.out.println("test");
+        System.out.println("master");
         return data_json;
     }
 }
