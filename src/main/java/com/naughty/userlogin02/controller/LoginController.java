@@ -40,6 +40,7 @@ public class LoginController {
 
         response.setHeader("Authorization",token);
         response.setHeader("Access-control-Expose-Headers","Authorization");
+        System.out.println("nihao");
         return Result.succ(MapUtil.builder()
                 .put("id",users.getId()).put("username",users.getUsername())
                 .put("email",users.getEmail()).put("state",users.isState()).map());
