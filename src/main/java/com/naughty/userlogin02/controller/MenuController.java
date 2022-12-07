@@ -28,6 +28,9 @@ public class MenuController {
         String data_json = JSON.toJSONString(data);
         System.out.println("成功访问！！！");
         System.out.println("ni");
+        System.out.println("zainihaoa");
+        System.out.println("test");
+        System.out.println("master");
         return data_json;
     }
 }
